@@ -1,0 +1,59 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+body{
+    background-color: black;
+    width:90%;
+    text-align:center; 
+    font-size: 2vw;
+    margin: auto;
+}
+h5{
+   font-family: 'Explora', cursive;
+   font-size: 3vw;
+   color: white;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+}
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+.header{
+    color: white;
+}
+.header2{
+    color:white;
+}
+.header3{
+    color: white;
+}
+.responsive {
+  width: 15%;
+  height: auto;
+}
